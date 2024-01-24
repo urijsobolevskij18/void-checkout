@@ -1,0 +1,3 @@
+ void checkout(const std::string& branch) {
+        if (branches.find(branch) != branches.end()) {
+            currentBranch = branch;
